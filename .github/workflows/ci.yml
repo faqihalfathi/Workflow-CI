@@ -28,4 +28,4 @@ jobs:
       - name: Run MLflow Project
         working-directory: ./MLProject
         run: |
-          mlflow run . --env-manager=local
+          mlflow run . --env-manager=local --experiment-name California_Housing_Basic
